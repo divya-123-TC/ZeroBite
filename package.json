@@ -1,21 +1,14 @@
 {
-  "name": "zerobite",
+  "name": "ZeroBite",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/divya-123-TC/ZeroBite.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/divya-123-TC/ZeroBite/issues"
-  },
-  "homepage": "https://github.com/divya-123-TC/ZeroBite#readme"
+  "dependencies": {
+    "@mapbox/polyline": "^1.2.1",
+    "expo": "^54.0.25",
+    "expo-location": "~19.0.7",
+    "react-native-maps": "^1.26.18"
+  }
 }
